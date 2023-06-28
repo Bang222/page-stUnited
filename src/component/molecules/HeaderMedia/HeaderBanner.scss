@@ -1,0 +1,79 @@
+.fe07-header-wrap {
+  position: relative;
+  width: 100%;
+
+  .fe07-header-media {
+    padding: 0;
+    margin: 0;
+
+    .fe07-banner-parallax {
+      padding: 0;
+      margin: 0;
+      overflow: hidden;
+      height: 400px;
+
+      &:before {
+        height: 400px;
+      }
+
+      .fe07-banner-bg-wrap {
+        opacity: 1;
+        padding: 0;
+        margin: 0;
+
+        .fe07-banner-inner {
+          margin: 0;
+          padding: 0;
+          overflow: visible;
+          position: relative;
+          background-repeat: no-repeat;
+          background-position: center center;
+          background-size: cover;
+
+        }
+
+        &:after {
+          content: '';
+          position: absolute;
+          height: 100%;
+          width: 100%;
+          background-color: #000000;
+          opacity: 0.4;
+          z-index: 2;
+        }
+      }
+    }
+  }
+
+  .fe07-banner-caption {
+    position: absolute;
+    color: white;
+    z-index: 3;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+
+    h1 {
+      font-size: 43px;
+      line-height: 43px;
+      font-weight: 500;
+      margin: 0 0 10px;
+      @media (max-width: 913px) {
+        font-size: 36px;
+      }
+      @media (max-width: 450px) {
+        font-size: 20px;
+      }
+    }
+
+    h2 {
+      font-size: 20px;
+      font-weight: 500;
+      margin: 0 0 10px;
+      @media (max-width: 450px) {
+        font-size: 16px;
+      }
+    }
+  }
+}

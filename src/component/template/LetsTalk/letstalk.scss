@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+
+.letstalk-container {
+    font-family: 'Roboto';
+    background-color: #f5f5f5;
+    padding-bottom: 40px;
+    .page-title-breadscrumb-top {
+        padding: 30px 0;
+        .letstalk-title {
+            .letstalk-sm-12 {
+                .letstalk-breadcrumb {
+                    .breadcrumb {
+                        padding: 0 0 20px;
+                        line-height: 12px;
+                        background-color: transparent !important;
+                        margin: 0;
+                        .breadcrumb-item {
+                        }
+                    }
+                }
+            }
+        }
+
+        .page-title-breadscrumb-title {
+            h1 {
+                font-size: 30px;
+                font-weight: 500;
+                line-height: 38px;
+            }
+        }
+    }
+    .wpb_wrapper {
+    }
+    .letstalk-breadcrumb__unactive {
+        a {
+            color: #00aeef !important;
+            font-weight: 400;
+            cursor: pointer;
+        }
+    }
+    .breadcrumb {
+        padding: 0 0 20px;
+        line-height: 12px;
+        background-color: transparent !important;
+        margin: 0;
+        svg.breadcrumb-icon {
+            height: 14px;
+            color: #9b9b9b;
+        }
+        li.breadcrumb-item {
+            font-weight: 400;
+            font-size: 12px;
+            height: fit-content;
+            color: #00aeef;
+        }
+        li.breadcrumb-item.active {
+            font-weight: 400;
+            font-size: 12px;
+            color: #707070;
+            height: fit-content;
+        }
+        .letstalk-breadcrumb__active {
+            color: #707070;
+            font-size: 12px !important;
+            line-height: 12px !important;
+            font-weight: 300 !important;
+        }
+    }
+}
+.letstalk-block {
+    .letstalk-white-block {
+        background-color: #fff;
+        padding: 40px;
+        .letstalk-input {
+            padding: 0 15px;
+        }
+    }
+    .letstalk-form {
+        .letstalk-column-inner {
+            padding: 0;
+        }
+        .letstalk-form__submit-button {
+            color: #fff;
+            background-color: #ff6e00;
+            border-color: #ff6e00;
+            cursor: pointer;
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 1.42857;
+            padding: 11px 15px;
+            transition: all 0.5s ease-in-out 0s;
+            text-align: center;
+            white-space: nowrap;
+            border: 1px solid transparent;
+            border-radius: 4px;
+            outline: 0 !important;
+            background-image: none;
+            touch-action: manipulation;
+            &:hover {
+                background-color: rgba(255, 110, 0, 0.75);
+                border-color: rgba(255, 110, 0, 0.75);
+            }
+        }
+    }
+    .letstalk-information {
+        padding: 0 15px;
+    }
+}
+
+.letstalk-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.letstalk-form__input-label {
+    width: 100%;
+    background-color: transparent;
+    font-size: 16px !important;
+    font-weight: 500;
+    border: none;
+    margin-bottom: 5px;
+}
+.letstalk-form__input-box {
+    width: 100%;
+    color: #959595;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    line-height: 1.428571429;
+    height: 42px;
+    padding: 6px 15px;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    &:focus {
+        border-color: #66afe9;
+        box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%), 0 0 8px rgb(102 175 233 / 60%);
+    }
+}
+.letstalk-form__text-area {
+    resize: both;
+    width: 100%;
+    border: 1px solid #ccc;
+    color: #959595;
+    min-height: 100px;
+    font-size: 14px;
+    line-height: 1.428571429;
+    padding: 6px 15px;
+    border-radius: 4px;
+    &:focus {
+        border-color: #66afe9 !important;
+        box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%), 0 0 8px rgb(102 175 233 / 60%);
+    }
+    &:focus-visible {
+        outline: none;
+    }
+}
+.noob {
+    margin: 0;
+}
+.letstalk-column-text {
+    margin-bottom: 35px;
+}
+.guest-email {
+    margin: 0px;
+}
+
+.letstalk-form__input-validate-error {
+    color: #f00;
+    font-size: 1em;
+    font-weight: normal;
+    display: block;
+}
+
+.submit-form__loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    i {
+        color: #959595;
+    }
+}
+.submit-form__result-fail {
+    padding: 10px 20px;
+    margin: 32px 8px 16px 8px;
+    font-weight: 300;
+    line-height: 24px;
+    color: #d8000c;
+    background-color: #ffbaba;
+    border: 0;
+    padding: 10px 20px;
+}
+.submit-form__result-success {
+    padding: 10px 20px;
+    margin: 32px 8px 16px 8px;
+    font-weight: 300;
+    line-height: 24px;
+    color: #063014;
+    background-color: #b6e6be;
+    border: 0;
+    padding: 10px 20px;
+}
+
+@media (max-width: 767px) {
+    .letstalk-white-block {
+        padding: 25px !important;
+    }
+    .letstalk-entry-content {
+        margin: 0 !important;
+    }
+    .letstalk-input {
+        padding: 0 !important;
+    }
+    p {
+        font-size: 12px;
+        line-height: 22px;
+    }
+    .wpb_text_column {
+        margin-top: 16px;
+    }
+    .letstalk-information {
+        padding: 0 !important;
+    }
+}

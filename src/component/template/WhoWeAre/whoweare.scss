@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;700;900&display=swap');
+
+.red {
+    border: 1px solid red;
+}
+
+.green {
+    border: 1px solid green;
+}
+
+.section__whoweare {
+    background-color: #f3f3f3;
+    padding-bottom: 40px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: 'Roboto', sans-serif;
+
+    .section__container {
+        max-width: 1200px;
+        width: 100%;
+
+        .section__container__title--block {
+            .let-talk__blank {
+                height: 85px;
+            }
+
+            .section__container__title {
+                .section__container__title__description {
+                    font-family: 'Roboto', sans-serif;
+
+                    .let-talk__Title {
+                        color: #000000;
+                        font-size: 16px;
+                        font-weight: 300;
+                        line-height: 24px;
+                        text-transform: none;
+                        @media only screen and (max-width: 568px) {
+                            font-size: 12px !important;
+                        }
+
+                        p {
+                            strong {
+                                font-weight: 700;
+                            }
+
+                            @media only screen and (max-width: 568px) {
+                                font-size: 12px !important;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .container--line {
+            height: 136px;
+            display: flex;
+            justify-content: center;
+
+            .whoweare--line {
+                max-width: 770px;
+                height: 1px;
+                border-top: 1px solid #ebebeb;
+                display: block;
+                position: relative;
+                top: 50%;
+                width: 100%;
+            }
+        }
+
+        .container--__let-talk--description--block {
+            .container--__let-talk--description {
+                margin-bottom: 24px;
+
+                .block--inner--let-talk__description {
+                    .let-talk__description {
+                        h1 {
+                            text-align: center;
+                            font-size: 24px;
+                        }
+                    }
+                }
+            }
+
+            .space--2 {
+                height: 64px;
+            }
+
+            .let-talk__inner--description {
+                .let-talk__inner {
+                    padding: 0 35px;
+
+                    p {
+                        text-align: left;
+                        margin-bottom: 20px;
+                        font-weight: 300;
+
+                        strong {
+                            font-weight: 700;
+                        }
+                    }
+                }
+            }
+
+            .blank--3 {
+                height: 32px;
+
+                .blank--3--inner {
+                }
+            }
+
+            .let-talk__title--blank--block {
+                .let-talk__title--blank {
+                    h4 {
+                        text-align: center;
+                        font-weight: 500;
+                        font-size: 16px;
+                        line-height: 20px;
+                        margin: 0 0 20px;
+                    }
+                }
+            }
+        }
+
+        .container--title--user {
+            text-align: center;
+            display: flex;
+            justify-content: center;
+
+            .inner__title--user {
+                margin-bottom: 35px;
+
+                .title--user {
+                    h1 {
+                        font-size: 24px;
+                        line-height: 28px;
+                        margin: 0 0 20px;
+                    }
+                }
+            }
+        }
+
+        .container--user {
+            padding: 55px 0;
+            .info--user {
+                z-index: 2;
+                padding: 35px 15px;
+                text-align: center;
+                background-color: #fff;
+                transition: 0.2s;
+                box-shadow: 0 0 3px #c3bebe;
+
+                &:hover {
+                    z-index: 100;
+                    box-shadow: 0 70px 70px #d8d5d5;
+                    transform: scale(1.01);
+                    transform: translate(0, -10px);
+                }
+
+                .service--icon {
+                    border-radius: 100px;
+                    padding: 35px 15px;
+                    display: flex;
+                    justify-content: center;
+
+                    img {
+                        padding: 0;
+                        border-radius: 150px;
+                        width: 150px;
+                        height: 150px;
+                        margin-bottom: 20px;
+                    }
+                }
+
+                .service--content {
+                    h3 {
+                        font-size: 16px;
+                        @media only screen and (max-width: 568px) {
+                            font-size: 12px !important;
+                        }
+                    }
+
+                    .service--link {
+                        color: #00aeef;
+                        font-weight: 400;
+                        font-size: 16px;
+                        cursor: auto;
+                        text-decoration: none;
+                        @media only screen and (max-width: 568px) {
+                            font-size: 12px !important;
+                        }
+                        &:hover {
+                            color: rgba(0, 174, 239, 0.75);
+                        }
+                    }
+                    .service--title {
+                        font-weight: 400;
+                    }
+                }
+            }
+        }
+        .container--join-us {
+            margin-bottom: 22px;
+            text-align: right;
+            height: 48px;
+            .join-us {
+                padding: 0;
+                height: 100%;
+                a {
+                    position: relative;
+                    top: 25%;
+                    color: #fff;
+                    text-decoration: none;
+                    border-color: #f7be68;
+                    background-color: #f7be68;
+                    font-size: 14px;
+                    border-radius: 3px;
+                    padding: 14px 20px 14px 20px;
+                }
+            }
+        }
+    }
+
+    @media only screen and (max-width: 568px) {
+        font-size: 12px !important;
+    }
+}

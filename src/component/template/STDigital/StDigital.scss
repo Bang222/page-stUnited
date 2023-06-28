@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+.Stdigital-container {
+    font-family: 'Roboto';
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    color: #000000;
+    margin: 10px auto;
+
+    .Stdigital-container-block {
+        max-width: 1220px;
+        margin-left: 30px;
+
+        .Stdigital-title-top {
+            .Stdigital-title-row {
+                .Stdigital-title {
+                    .Stdigital-title-head {
+                        font-size: 27px;
+                        line-height: 38px;
+                        margin-top: 40px;
+                        font-weight: 450;
+                    }
+                }
+            }
+        }
+
+        .Stdigital-section-content {
+            .Stdigital-section {
+                .Stdigital-page-main {
+                    .Stdigital-content-text {
+                        margin-bottom: 100px;
+                        max-width: 1140px;
+
+                        p {
+                            strong {
+                                font-weight: 600;
+                            }
+                            margin-top: 30px !important;
+                            font-weight: 300;
+                            @media only screen and (max-width: 767px) {
+                                font-size: 12px;
+                                line-height: 22px;
+                            }
+                        }
+                    }
+
+                    .Stdigital-module-three-columns {
+                        .Stdigital-module {
+                            .module-item {
+                                .module-block {
+                                    display: flex;
+
+                                    .block-icon {
+                                        max-width: 80px;
+                                    }
+
+                                    .block-content {
+                                        color: #636363;
+
+                                        .h1-content {
+                                            font-size: 20px;
+                                            line-height: 28px;
+                                            color: #000000;
+                                            font-weight: 500 !important;
+                                        }
+
+                                        p {
+                                            text-align: left;
+                                            font-weight: 300;
+                                            @media only screen and (max-width: 767px) {
+                                                font-size: 12px;
+                                                line-height: 22px;
+                                                font-weight: 300;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+
+                        .Stdigital-module-2 {
+                            margin-top: 50px;
+                            margin-bottom: 20px;
+
+                            .Stdigital-meet-our-team {
+                                .Stdigital-meet-our-team-title {
+                                    h1 {
+                                        font-size: 18px;
+                                        line-height: 22px;
+                                        margin: 0 0 20px;
+                                        font-weight: bold !important;
+                                    }
+                                }
+                            }
+                        }
+                        .Stdigital-module-container {
+                            .Stdigital-module-block {
+                                padding: 50px 10px;
+                                margin-top: -60px;
+                                .Stdigital-module-3 {
+                                    .Stdigital-list-user {
+                                        padding-left: 0;
+                                        padding-right: 0;
+
+                                        .Stdigital-wrapper-list {
+                                            box-sizing: border-box;
+                                            padding-left: 15px;
+                                            padding-right: 15px;
+                                            width: 100%;
+
+                                            .Stdigital-wrapper-list-user {
+                                                img {
+                                                    height: auto;
+                                                    max-width: 100%;
+                                                }
+
+                                                p {
+                                                    text-align: center;
+
+                                                    strong {
+                                                        font-weight: bold !important;
+                                                    }
+                                                    @media only screen and (max-width: 767px) {
+                                                        font-size: 12px;
+                                                        line-height: 22px;
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
